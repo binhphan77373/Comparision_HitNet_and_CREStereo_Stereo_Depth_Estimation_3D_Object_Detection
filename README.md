@@ -109,31 +109,22 @@ Sample results and visualizations are stored in the `results/` directory.
 If you use this code in your research, please cite:
 
 ```
-@article{hitnet2021,
-  title={HitNet: Hierarchical Iterative Tile Refinement Network for Real-time Stereo Matching},
-  author={...},
-  journal={...},
+@inproceedings{tankovich2021hitnet,
+  title={Hitnet: Hierarchical iterative tile refinement network for real-time stereo matching},
+  author={Tankovich, Vladimir and Hane, Christian and Zhang, Yinda and Kowdle, Adarsh and Fanello, Sean and Bouaziz, Sofien},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={14362--14372},
   year={2021}
 }
 
-@article{crestereo2022,
-  title={Practical Stereo Matching via Cascaded Recurrent Network with Adaptive Correlation},
-  author={...},
-  journal={...},
+@inproceedings{li2022practical,
+  title={Practical stereo matching via cascaded recurrent network with adaptive correlation},
+  author={Li, Jiankun and Wang, Peisen and Xiong, Pengfei and Cai, Tao and Yan, Ziwei and Yang, Lei and Liu, Jiangyu and Fan, Haoqiang and Liu, Shuaicheng},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={16263--16272},
   year={2022}
 }
-
-@article{Geiger2012CVPR,
-  title={Are we ready for Autonomous Driving? The KITTI Vision Benchmark Suite},
-  author={Geiger, Andreas and Lenz, Philip and Urtasun, Raquel},
-  booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2012}
-}
 ```
-
-## License
-
-[Specify the license under which this project is released]
 
 ## Acknowledgements
 
