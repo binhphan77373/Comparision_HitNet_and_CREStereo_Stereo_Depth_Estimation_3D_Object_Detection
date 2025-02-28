@@ -94,31 +94,6 @@ To run the video processing demo:
 python demo_video.py
 ```
 
-### Evaluating Models
-
-To evaluate and compare the performance of HitNet and CREStereo:
-```bash
-python evaluate.py
-```
-
-## Project Structure
-
-```
-.
-├── config.py                  # Configuration settings
-├── demo_video.py              # Video processing demo
-├── evaluate.py                # Evaluation script
-├── models/                    # Model implementations
-│   ├── hitnet/                # HitNet implementation
-│   └── crestereo/             # CREStereo implementation
-├── utils/                     # Utility functions
-│   ├── visualization.py       # Visualization tools
-│   └── metrics.py             # Evaluation metrics
-├── data_scene_flow/           # KITTI dataset images and disparity maps
-├── data_scene_flow_calib/     # KITTI calibration files
-└── results/                   # Output directory for results
-```
-
 ## Results
 
 The repository includes tools to compare the two stereo estimation methods across multiple metrics:
@@ -163,4 +138,3 @@ If you use this code in your research, please cite:
 ## Acknowledgements
 
 - KITTI Vision Benchmark Suite for providing the stereo dataset
-- [Add any other acknowledgements for frameworks or research that this project builds upon]
