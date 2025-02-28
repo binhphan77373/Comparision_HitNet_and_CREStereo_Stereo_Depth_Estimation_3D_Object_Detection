@@ -25,43 +25,45 @@ This project implements and compares two state-of-the-art stereo depth estimatio
 ### Setup
 
 1. Clone the repository:
-```bash
-git clone https://github.com/binhphan77373/Comparision_HitNet_and_CREStereo_Stereo_Depth_Estimation_3D_Object_Detection.git
-cd Comparision_HitNet_and_CREStereo_Stereo_Depth_Estimation_3D_Object_Detection
-```
+   ```bash
+   git clone https://github.com/binhphan77373/Comparision_HitNet_and_CREStereo_Stereo_Depth_Estimation_3D_Object_Detection.git
+   cd Comparision_HitNet_and_CREStereo_Stereo_Depth_Estimation_3D_Object_Detection
+   ```
 
 2. Create and activate a conda environment:
-```bash
-conda create --name stereo_depth_env python=3.9
-conda activate stereo_depth_env
-```
+   ```bash
+   conda create --name stereo_depth_env python=3.9
+   conda activate stereo_depth_env
+   ```
 
 3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-If you encounter errors, install the following packages individually:
-```bash
-pip install PyQt5==5.15.9
-pip install opencv-python
-pip install torch torchvision torchaudio
-pip install tqdm
-pip install open3d
-pip install ultralytics
-pip install tensorflow
-pip install flopth
-pip install ptflops
-```
+   If you encounter errors, install the following packages individually:
+   ```bash
+   pip install PyQt5==5.15.9
+   pip install opencv-python
+   pip install torch torchvision torchaudio
+   pip install tqdm
+   pip install open3d
+   pip install ultralytics
+   pip install tensorflow
+   pip install flopth
+   pip install ptflops
+   ```
 
-Alternatively, you can create the environment directly from the provided YAML file:
-```bash
-conda env create -f environment.yml
-```
+   Alternatively, you can create the environment directly from the provided YAML file:
+   ```bash
+   conda env create -f environment.yml
+   ```
 
 ## Dataset
 
-This project uses the KITTI stereo dataset. The dataset structure should be organized as follows:
+This project uses the KITTI stereo dataset. For more information and to download the dataset, please visit [KITTI Stereo Evaluation](https://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo).
+
+The dataset structure should be organized as follows:
 
 ```
 data_scene_flow_calib/
@@ -129,3 +131,5 @@ If you use this code in your research, please cite:
 ## Acknowledgements
 
 - KITTI Vision Benchmark Suite for providing the stereo dataset
+
+---
